@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "discord.js": "",
-		"sleep.js": "",
+	"sleep.js": "",
     "request": "",
   }
 }
