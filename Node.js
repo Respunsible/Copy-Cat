@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('message', msg => {
-  message = string(message.content);
+  message = String(message.content);
   msg.channel.send(message);
 });
 
