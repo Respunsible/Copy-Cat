@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+var sleep = require('sleep');
 
 client.on('message', msg => {
   if (msg.author.id !== '460110841606570005') {
