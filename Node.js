@@ -4,7 +4,7 @@ const client = new Discord.Client();
 
 client.on('message', msg => {
   if (msg.author.id !== '460110841606570005') {
-    sleep.sleep(2);
+    sleep.sleep(msg.content.length * 2);
     msg.channel.send(msg.content);
   }
 });
