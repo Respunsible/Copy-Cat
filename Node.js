@@ -3,7 +3,8 @@ const client = new Discord.Client();
 
 client.on('message', msg => {
   if (msg.author.id !== '460110841606570005') {
-    setTimeout(msg.channel.send(msg.content), 3000);
+    sleep(2000)
+    msg.channel.send(msg.content);
   }
 });
 
