@@ -1,10 +1,10 @@
 const Discord = require('discord.js');
-const sleep = require('sleep');
+const delay = require('delay');
 const client = new Discord.Client();
 
 client.on('message', msg => {
   if (msg.author.id !== '460110841606570005') {
-    sleep.sleep(2);
+    await delay(2000);
     msg.channel.send(msg.content);
   }
 });
