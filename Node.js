@@ -1,3 +1,5 @@
+$ npm install delay
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const delay = require('delay');
